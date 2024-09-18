@@ -1,0 +1,149 @@
+html {
+    font-family: roboto, sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+.section-wrapper, nav {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.hero, footer, .navigation {
+    background-color: #1F2937;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.hero p, nav a {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0;
+}
+
+.hero img {
+    min-width: 0;
+}
+
+nav p {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+    
+}
+
+button {
+    background-color: #3882F6;    
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: white;
+    padding: 6px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+}
+
+#information-header {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+}
+
+#quote {
+    padding: 0;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    text-align: left;
+}
+
+body {
+    margin: 0;
+}
+
+nav {
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.hero .section-wrapper {
+    padding: 100px 0;
+    gap: 40px;
+}
+
+.hero .flex-item {
+    flex: 1;
+}
+
+.info {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.info li {
+    width: 200px;
+}
+
+.info img {
+    border-radius: 10%;
+}
+
+.info p {
+    margin-top: 5px;
+    color: #1F2937;
+}
+
+.info .section-wrapper {
+    flex-direction: column;
+}
+
+.info ul {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.quote-section {
+    padding: 120px 15% 100px 15%;
+}
+
+.quote-section .section-wrapper {
+    text-align: right;
+    flex-direction: column;
+}
+
+.quote-section .section-wrapper * {
+    margin: 0;
+    padding: 0;
+}

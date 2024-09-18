@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang='en'>
+	<head>
+		<meta charset="utf-8">
+		<title>The basic structure</title>
+		<style type="text/css">
+			body {
+				font-size: 1.25rem;
+				background: #111;
+				color: white;
+			}
+
+			body > div {
+				display: block;
+				background: #222;
+				padding: 40px;
+				border-radius: 30px;
+				width: 700px;
+				margin: 40px auto 40px auto;
+			}
+
+			section {
+				margin-bottom: 80px;
+			}
+
+			section > * {
+				margin-left: 40px;
+			}
+
+			section :nth-child(1) {
+				margin-left: 0px;
+			}
+
+			section :nth-child(2) {
+				margin-left: 20px;
+			}
+
+			h1:before {
+				content: "H1 ";
+			}
+
+			h2:before {
+				content: "H2 ";
+			}
+
+			h3:before {
+				content: "H3 ";
+			}
+
+			.serif {
+				background: #211;
+			}
+
+			.monospace {
+				background: #122;
+			}
+
+			.cursive {
+				background: #212;
+			}
+
+			.fantasy {
+				background: linear-gradient(45deg, rgba(101,0,0,1) 0%, rgba(101,59,0,1) 10%, rgba(97,98,0,1) 21%, rgba(72,99,0,1) 30%, rgba(0,103,2,1) 40%, rgba(0,98,61,1) 48%, rgba(0,90,99,1) 58%, rgba(0,56,101,1) 67%, rgba(0,0,98,1) 74%, rgba(43,0,98,1) 80%, rgba(88,0,99,1) 91%, rgba(103,0,0,1) 100%);
+
+			}
+
+			.arial {
+				font-family: Arial;
+			}
+
+			.arial-black {
+				font-family: "Arial Black", sans-serif;
+			}
+
+			.gill-sans {
+				font-family: "Gill Sans", sans-serif;
+			}
+
+			.helvetica {
+				font-family: Helvetica, sans-serif;
+			}
+
+			.impact {
+				font-family: Impact, sans-serif;
+			}
+
+			.tahoma {
+				font-family: Tahoma, sans-serif;
+			}
+
+			.trebuchet-ms {
+				font-family: Trebuchet MS, sans-serif;
+			}
+
+			.verdana {
+				font-family: Verdana, sans-serif;
+			}
+
+			.baskerville {
+				font-family: Baskerville, serif;
+			}
+
+			.times-new-roman {
+				font-family: "Times New Roman", serif;
+			}
+
+			.georgia {
+				font-family: Georgia, serif;
+			}
+
+			.palatino {
+				font-family: Palatino, serif;
+			}
+
+			.andale-mono {
+				font-family: "Andale Mono", monospace;
+			}
+
+			.courier {
+				font-family: Courier, monospace;
+			}
+
+			.lucida {
+				font-family: Lucida, monospace;
+			}
+
+			.monaco {
+				font-family: Monaco, monospace;
+			}
+
+			.bradley-hand {
+				font-family: "Bradley Hand", cursive;
+			}
+
+			.brush-script-mt {
+				font-family: "Brush Script MT", cursive;
+			}
+
+			.comic-sans-ms {
+				font-family: "Comic Sans MS", cursive;
+			}
+
+			.luminari {
+				font-family: Luminari, fantasy;
+			}
+		</style>
+	</head>
+	<body>
+		<sub>https://blog.hubspot.com/website/web-safe-html-css-fonts</sub>
+		<sub>Update with https://webflow.com/blog/google-fonts#:~:text=Roboto%20is%20a%20web%2Dsafe,devices%20and%20for%20Google%20services.</sub>
+		<h1>Web-safe fonts</h1>
+		<div class="sans-serif">
+			<section class="arial">
+				<h1>Top tier Heading</h1>
+				<h2>Arial (sans-serif)</h2>
+				<h3>3rd level header</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				<p><em>Ut enim ad minim veniam, quis nostrud exercitation ullamco <u>aboris nisi ut aliquip ex ea commodo consequat.</u></em></p>
+				<p><strong>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <u>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</u></strong></p>
+			</section>
+			<section class="arial-black">
+				<h1>Top tier Heading</h1>
+				<h2>Arial Black (sans-serif)</h2>
+				<h3>3rd level header</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				<p><em>Ut enim ad minim veniam, quis nostrud exercitation ullamco <u>aboris nisi ut aliquip ex ea commodo consequat.</u></em></p>
+				<p><strong>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <u>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</u></strong></p>
+			</section>
+			<section class="gill-sans">
+				<h1>Top tier Heading</h1>
+				<h2>Gill Sans (sans-serif)</h2>
+				<h3>3rd level header</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				<p><em>Ut enim ad minim veniam, quis nostrud exercitation ullamco <u>aboris nisi ut aliquip ex ea commodo consequat.</u></em></p>
+				<p><strong>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <u>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</u></strong></p>
+			</section>
+			<section class="helvetica">
+				<h1>Top tier Heading</h1>
+				<h2>Helvetica (sans-serif)</h2>
+				<h3>3rd level header</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				<p><em>Ut enim ad minim veniam, quis nostrud exercitation ullamco <u>aboris nisi ut aliquip ex ea commodo consequat.</u></em></p>
+				<p><strong>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <u>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</u></strong></p>
+			</section>
+			<section class="impact">
+				<h1>Top tier Heading</h1>
+				<h2>Impact (sans-serif)</h2>
+				<h3>3rd level header</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				<p><em>Ut enim ad minim veniam, quis nostrud exercitation ullamco <u>aboris nisi ut aliquip ex ea commodo consequat.</u></em></p>
+				<p><strong>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <u>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</u></strong></p>
+			</section>
+			<section class="tahoma">
+				<h1>Top tier Heading</h1>
+				<h2>Tahoma (sans-serif)</h2>
+				<h3>3rd level header</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				<p><em>Ut enim ad minim veniam, quis nostrud exercitation ullamco <u>aboris nisi ut aliquip ex ea commodo consequat.</u></em></p>
+				<p><strong>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <u>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</u></strong></p>
+			</section>
+			<section class="trebuchet-ms">
+				<h1>Top tier Heading</h1>
+				<h2>Trebuchet MS (sans-serif)</h2>
+				<h3>3rd level header</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				<p><em>Ut enim ad minim veniam, quis nostrud exercitation ullamco <u>aboris nisi ut aliquip ex ea commodo consequat.</u></em></p>
+				<p><strong>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <u>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</u></strong></p>
+			</section>
+			<section class="verdana">
+				<h1>Top tier Heading</h1>
+				<h2>Verdana (sans-serif)</h2>
+				<h3>3rd level header</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				<p><em>Ut enim ad minim veniam, quis nostrud exercitation ullamco <u>aboris nisi ut aliquip ex ea commodo consequat.</u></em></p>
+				<p><strong>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <u>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</u></strong></p>
+			</section>
+		</div>
+		<div class="serif">
+			<section class="baskerville">
+				<h1>Top tier Heading</h1>
+				<h2>Baskerville (serif)</h2>
+				<h3>3rd level header</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				<p><em>Ut enim ad minim veniam, quis nostrud exercitation ullamco <u>aboris nisi ut aliquip ex ea commodo consequat.</u></em></p>
+				<p><strong>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <u>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</u></strong></p>
+			</section>
+			<section class="times-new-roman">
+				<h1>Top tier Heading</h1>
+				<h2>Times New Roman (serif)</h2>
+				<h3>3rd level header</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				<p><em>Ut enim ad minim veniam, quis nostrud exercitation ullamco <u>aboris nisi ut aliquip ex ea commodo consequat.</u></em></p>
+				<p><strong>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <u>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</u></strong></p>
+			</section>
+			<section class="georgia">
+				<h1>Top tier Heading</h1>
+				<h2>Georgia (serif)</h2>
+				<h3>3rd level header</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				<p><em>Ut enim ad minim veniam, quis nostrud exercitation ullamco <u>aboris nisi ut aliquip ex ea commodo consequat.</u></em></p>
+				<p><strong>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <u>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</u></strong></p>
+			</section>
+			<section class="palatino">
+				<h1>Top tier Heading</h1>
+				<h2>Palatino (serif)</h2>
+				<h3>3rd level header</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				<p><em>Ut enim ad minim veniam, quis nostrud exercitation ullamco <u>aboris nisi ut aliquip ex ea commodo consequat.</u></em></p>
+				<p><strong>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <u>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</u></strong></p>
+			</section>
+		</div>
+		<div class="monospace">
+			<section class="andale-mono">
+				<h1>Top tier Heading</h1>
+				<h2>Andalé Mono (monospace)</h2>
+				<h3>3rd level header</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				<p><em>Ut enim ad minim veniam, quis nostrud exercitation ullamco <u>aboris nisi ut aliquip ex ea commodo consequat.</u></em></p>
+				<p><strong>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <u>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</u></strong></p>
+			</section>
+			<section class="courier">
+				<h1>Top tier Heading</h1>
+				<h2>Courier (monospace)</h2>
+				<h3>3rd level header</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				<p><em>Ut enim ad minim veniam, quis nostrud exercitation ullamco <u>aboris nisi ut aliquip ex ea commodo consequat.</u></em></p>
+				<p><strong>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <u>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</u></strong></p>
+			</section>
+			<section class="lucida">
+				<h1>Top tier Heading</h1>
+				<h2>Lucida (monospace)</h2>
+				<h3>3rd level header</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				<p><em>Ut enim ad minim veniam, quis nostrud exercitation ullamco <u>aboris nisi ut aliquip ex ea commodo consequat.</u></em></p>
+				<p><strong>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <u>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</u></strong></p>
+			</section>
+			<section class="monaco">
+				<h1>Top tier Heading</h1>
+				<h2>Monaco (monospace)</h2>
+				<h3>3rd level header</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				<p><em>Ut enim ad minim veniam, quis nostrud exercitation ullamco <u>aboris nisi ut aliquip ex ea commodo consequat.</u></em></p>
+				<p><strong>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <u>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</u></strong></p>
+			</section>
+		</div>
+		<div class="cursive">
+			<section class="bradley-hand">
+				<h1>Top tier Heading</h1>
+				<h2>Bradley Hand (cursive)</h2>
+				<h3>3rd level header</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				<p><em>Ut enim ad minim veniam, quis nostrud exercitation ullamco <u>aboris nisi ut aliquip ex ea commodo consequat.</u></em></p>
+				<p><strong>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <u>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</u></strong></p>
+			</section>
+			<section class="brush-script-mt">
+				<h1>Top tier Heading</h1>
+				<h2>Brush Script MT (cursive)</h2>
+				<h3>3rd level header</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				<p><em>Ut enim ad minim veniam, quis nostrud exercitation ullamco <u>aboris nisi ut aliquip ex ea commodo consequat.</u></em></p>
+				<p><strong>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <u>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</u></strong></p>
+			</section>
+			<section class="comic-sans-ms">
+				<h1>Top tier Heading</h1>
+				<h2>Comic Sans MS (cursive)</h2>
+				<h3>3rd level header</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				<p><em>Ut enim ad minim veniam, quis nostrud exercitation ullamco <u>aboris nisi ut aliquip ex ea commodo consequat.</u></em></p>
+				<p><strong>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <u>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</u></strong></p>
+			</section>
+		</div>
+		<div class="fantasy">
+			<section class="luminari">
+				<h1>Top tier Heading</h1>
+				<h2>Luminari (fantasy)</h2>
+				<h3>3rd level header</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				<p><em>Ut enim ad minim veniam, quis nostrud exercitation ullamco <u>aboris nisi ut aliquip ex ea commodo consequat.</u></em></p>
+				<p><strong>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <u>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</u></strong></p>
+			</section>
+		</div>
+
+		<script type="text/javascript">
+			
+			// Check if Arial font is available
+			x = document.fonts.check("16px Arial");
+			console.log(x)
+
+			// Check if Arial Black font is available
+			x = document.fonts.check("16px 'Arial Black'");
+			console.log(x)
+
+			// Check if Gill Sans font is available
+			x = document.fonts.check("16px 'Gill Sans'");
+			console.log(x)
+
+			// Check if Helvetica font is available
+			x = document.fonts.check("16px Helvetica");
+			console.log(x)
+
+			// Check if Impact font is available
+			x = document.fonts.check("16px Impact");
+			console.log(x)
+
+			// Check if Tahoma font is available
+			x = document.fonts.check("16px Tahoma");
+			console.log(x)
+
+			// Check if Trebuchet MS font is available
+			x = document.fonts.check("16px 'Trebuchet MS'");
+			console.log(x)
+
+			// Check if Verdana font is available
+			x = document.fonts.check("16px Verdana");
+			console.log(x)
+
+			// Check if Baskerville font is available
+			x = document.fonts.check("16px Baskerville");
+			console.log(x)
+
+			// Check if Times New Roman font is available
+			x = document.fonts.check("16px 'Times New Roman'");
+			console.log(x)
+
+			// Check if Georgia font is available
+			x = document.fonts.check("16px Georgia");
+			console.log(x)
+
+			// Check if Palatino font is available
+			x = document.fonts.check("16px Palatino");
+			console.log(x)
+
+			// Check if Andale Mono font is available
+			x = document.fonts.check("16px 'Andale Mono'");
+			console.log(x)
+
+			// Check if Courier font is available
+			x = document.fonts.check("16px Courier");
+			console.log(x)
+
+			// Check if Lucida font is available
+			x = document.fonts.check("16px Lucida");
+			console.log(x)
+
+			// Check if Monaco font is available
+			x = document.fonts.check("16px Monaco");
+			console.log(x)
+
+			// Check if Bradley Hand font is available
+			x = document.fonts.check("16px 'Bradley Hand'");
+			console.log(x)
+
+			// Check if Brush Script MT font is available
+			x = document.fonts.check("16px 'Brush Script MT'");
+			console.log(x)
+
+			// Check if Comic Sans MS font is available
+			x = document.fonts.check("16px 'Comic Sans MS'");
+			console.log(x)
+
+			// Check if Luminari font is available
+			x = document.fonts.check("16px Luminari");
+			console.log(x)
+
+		</script>
+	</body>
+</html>
