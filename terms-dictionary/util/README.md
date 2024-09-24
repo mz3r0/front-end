@@ -1,4 +1,4 @@
-Original markdown causes the following output when generating the JSON. There should be no output, so I changed some `-` characters into proper em-dashes.
+The original markdown file from [ephraimduncan's repo](https://github.com/ephraimduncan/awesome-developer-dictionary) causes the following output when generating the JSON. There should be no output, so I changed some `-` characters into proper em-dashes.
 
 Output for `original.md`
 ```
